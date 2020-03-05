@@ -1,0 +1,47 @@
+*{
+    font-family: Arial;
+    font-style: italic;
+    box-sizing: border-box;/*solo para el borde*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    border: 1px solid peru;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+#er-article{
+    text-transform: uppercase;
+}
+
+header{
+    background-color: cyan;
+}
+nav{
+    background-color: magenta;
+    width: 90%;
+    margin: 0 auto;
+}
+
+section{
+    background-color: slateblue;
+    /*width: 60% ;
+    display: inline-block;*/
+}
+
+aside{
+    background-color: salmon;
+    /*width: calc(40% - 20px);
+    display: inline-block;*/
+}
+
+.flex-wraper{
+    display: flex;
+}
